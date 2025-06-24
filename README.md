@@ -152,5 +152,3 @@ vite-bootstrap-portfolio/
 ## 📝 License
 
 MIT – free to use and adapt with attribution.
-
-```
