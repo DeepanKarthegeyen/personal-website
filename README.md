@@ -1,4 +1,4 @@
-Here's a complete `README.md` file for your **React + Vite + Bootstrap personal website project**, including:
+Here's a complete `README.md` file for your **deepan-personal-website**, including:
 
 * ✅ Project overview
 * 🛠️ Tech stack
