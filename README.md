@@ -1,18 +1,9 @@
 Here's a complete `README.md` file for your **deepan-personal-website**, including:
 
-* ✅ Project overview
-* 🛠️ Tech stack
-* 🚀 How to build, run, and deploy
-* 📁 Project structure
-
----
-
-### 📄 `README.md`
-
 ````markdown
 # 🌐 My – Personal Website
 
-This is a **mobile-friendly personal portfolio website** built using **React + Vite + Bootstrap**. It showcases:
+This is a **mobile-friendly personal portfolio website** built using **React**. It showcases:
 - A responsive landing page
 - Resume preview and download
 - Highlighted projects
@@ -113,39 +104,6 @@ npm install --save-dev gh-pages
 ```bash
 npm run deploy
 ```
-
----
-
-## 🗂️ Project Structure
-
-```
-vite-bootstrap-portfolio/
-├── public/
-├── src/
-│   ├── assets/              # Profile photo, resume PDF
-│   ├── pages/               # Home, About, Projects, Resume, Contact
-│   ├── App.jsx              # Routing layout
-│   └── main.jsx             # App entry point
-├── index.html
-├── package.json
-└── vite.config.js
-```
-
----
-
-## 📄 Resume & Assets
-
-* Resume PDF: `/src/assets/Software Architect Deepan Karthegeyen A.pdf`
-* Profile Photo: `/src/assets/profile.jpg`
-
----
-
-## 🙋‍♂️ Author
-
-**Deepan Karthegeyen**
-📫 [deepan\_31@yahoo.co.in](mailto:deepan_31@yahoo.co.in)
-🌍 Chennai, India
-🔗 [LinkedIn](https://www.linkedin.com/in/deepankarthegeyen)
 
 ---
 
