@@ -154,13 +154,3 @@ vite-bootstrap-portfolio/
 MIT – free to use and adapt with attribution.
 
 ```
-
----
-
-Let me know if you'd like:
-- A blog section added
-- Dark mode toggle
-- Admin dashboard to update content dynamically
-
-I can extend the project accordingly.
-```
