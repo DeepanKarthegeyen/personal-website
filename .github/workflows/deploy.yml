@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main  # Trigger on push to main
+      - new-design # Trigger on push to new-design
 
 jobs:
   build-and-deploy:
