@@ -405,7 +405,10 @@ function App() {
         <AppNavbar theme={theme} onToggleTheme={toggleTheme} />
         <div style={{ flex: 1 }}>
           <Routes>
-            <Route path="/" element={<LandingPage theme={theme} />} />
+            <Route
+              path={process.env.NODE_ENV === 'production' ? '/personal-website/' : '/'}
+              element={<LandingPage theme={theme} />}
+            />
             <Route path="/contact" element={<ContactPage theme={theme} />} />
             <Route path="/resume" element={<ResumePage theme={theme} />} />
           </Routes>
