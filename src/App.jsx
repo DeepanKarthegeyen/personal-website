@@ -352,7 +352,7 @@ function AppNavbar({ theme, onToggleTheme }) {
   return (
     <Navbar bg={theme === 'dark' ? 'dark' : 'light'} variant={theme === 'dark' ? 'dark' : 'light'} expand="lg" className="mb-5">
       <Container fluid>
-        <Navbar.Brand as={Link} to="/" className="d-flex align-items-center" style={{ paddingRight: 0, cursor: 'pointer' }}>
+        <Navbar.Brand as={Link} to={process.env.NODE_ENV === 'production' ? '/personal-website/' : '/'} className="d-flex align-items-center" style={{ paddingRight: 0, cursor: 'pointer' }}>
           <img src={profile} alt="Profile" width={48} height={48} className="rounded-circle" style={{ objectFit: 'cover', border: '2px solid #bada55' }} />
         </Navbar.Brand>
         <div className="flex-grow-1" />
