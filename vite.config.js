@@ -3,5 +3,12 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   base: process.env.NODE_ENV === 'production' ? '/personal-website/' : '/', //comment
-  plugins: [react()]
+  plugins: [react()],
+  server: {
+    open: {
+      app: {
+        name: 'chrome'
+      }
+    }
+  }
 })
